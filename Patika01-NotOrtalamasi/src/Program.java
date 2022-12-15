@@ -21,6 +21,6 @@ public class Program {
 
 		sum = sum / dersler.length;
 		System.out.println("--------------------------------");
-		System.out.println((60 < sum) ? "Sınıfı geçti" : "Sınıfta Kaldı");
+		System.out.println((sum > 60) ? "Sınıfı geçti" : "Sınıfta Kaldı");
 	}
 }

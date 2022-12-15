@@ -1,4 +1,4 @@
-package Patika03DikUcgendeHipotenus;
+
 
 public class UcgenHesaplamalari {
 	
