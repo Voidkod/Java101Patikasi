@@ -1,4 +1,14 @@
-package stream;
+//www.patika.dev
+//@author Tufan ERDOĞAN
+
+/* Problem
+ 
+ Videodaki hesap makinesini switch-case kullanarak yapınız.
+   
+ link: https://www.youtube.com/watch?v=XiXHRVm_hJY
+ */
+
+
 
 import java.util.Scanner;
 
