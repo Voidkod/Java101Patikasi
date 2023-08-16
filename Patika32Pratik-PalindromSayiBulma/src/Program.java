@@ -2,30 +2,12 @@
 //@author Tufan ERDOĞAN
 
 /* 
-	Java döngüler ile fibonacci serisi bulan program yazıyoruz. Fibonacci serisinin eleman sayısını kullanıcıdan alın.
+	Java ile bir sayının "Palindrom Sayı" olup olmadığını bulan bir program yapıyoruz.
 	
-	Fibonacci Serisi Nedir ?
-	Fibonacci serisi, her sayının kendinden önceki ile toplanması sonucu oluşan bir sayı dizisidir. Bu şekilde devam eden bu dizide sayılar birbirleriyle oranlandığında altın oran ortaya çıkar, yani bir sayı kendisinden önceki sayıya bölündüğünde altın orana gittikçe yaklaşan bir dizi elde edilir.
+	Palindrom Sayı Nedir ?
+	Palindromik sayı, iki taraftan okunduğu zaman okunuş yönüyle aynı olan sayılardır.
 	
-	Fibonacci dizisi, 0'dan başlar ve sonsuza kadar. Her rakam, bir önceki rakamla toplanır. Elde edilen sonuç rakamın sağ tarafına yazılır. Fibonacci dizisinin ilk on sayısı şu şekildedir:
-	
-	9 Elemanlı Fibonacci Serisi : 0 1 1 2 3 5 8 13 21 34
-	
-	 0 + 1 = 1
-	
-	 1 + 1 = 2
-	
-	 1 + 2 = 3
-	
-	 2 + 3 = 5
-	
-	 3 + 5 = 8
-	
-	 5 + 8 = 13
-	
-	 8 + 13 = 21
-	
-	 13 + 21 = 34
+	Örnek: 1, 4, 8, 99, 101, 363, 4004, 9889....
 */
 
 import java.util.Scanner;
