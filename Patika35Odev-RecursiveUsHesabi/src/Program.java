@@ -2,22 +2,19 @@
 //@author Tufan ERDOĞAN
 
 /* 
-	Gelişmiş Hesap Makinesi
-	Java ile kullanıcın seçtiği işlemleri yapan hesap makinesi yapıyoruz.
+	Recursive Metotlar ile Üslü Sayı Hesaplama
+	Java dilinde, taban ve üs değerleri kullanıcıdan alınan üs alma işlemini "Recursive" metot kullanarak yapan programı yazınız.
 	
-	Hesap makinesinin fonksiyonları :
+	Senaryo
 	
-	1- Toplama İşlemi
-	2- Çıkarma İşlemi
-	3- Çarpma İşlemi
-	4- Bölme işlemi
-	5- Üslü Sayı Hesaplama
-	6- Faktoriyel Hesaplama
-	7- Mod Alma
-	8- Dikdörtgen Alan ve Çevre Hesabı
-	
-	Ödev
-	Aynı projeye mod almak ve dikdörtgen alan çevre hesabını yapan metotları yazıp menüde işlevsel hale getiriniz.
+	Taban değeri giriniz :2 Üs değerini giriniz : 0
+	Sonuç : 1
+	Taban değeri giriniz : 2
+	Üs değerini giriniz : 3
+	Sonuç : 8
+	Taban değeri giriniz : 5
+	Üs değerini giriniz : 3
+	Sonuç : 125
 */
 
 import java.util.Scanner;
