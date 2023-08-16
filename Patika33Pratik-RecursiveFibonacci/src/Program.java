@@ -9,8 +9,6 @@ import java.util.Scanner;
 
 public class Program {
 	
-	//int-String ve String-int dönüşümleriyle Palindrom sayı bulma.
-	
 	static int fib(int number) {
 		
 		if(number==1 || number==2) {
