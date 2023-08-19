@@ -36,7 +36,6 @@ public class Program {
 		 else {
 
 			if(number%divisor==0) return false;
-
 			divisor++;
 			return isPrime(number);
 		 }
