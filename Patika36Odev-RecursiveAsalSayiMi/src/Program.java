@@ -27,18 +27,20 @@ public class Program {
 	
 	static int divisor = 2;
 	
-	static int isPrime(int number) {
-			 
-		 int count=0;
-		 if(number<2) return count=1;
-		 if(number==divisor) return count;
+	static boolean isPrime(int number) {
+
+		 if(number<2) return false;
+
+		 if(divisor*divisor>number) return true;
+		 
 		 else {
-			 
-			 if(number%divisor==0) ++count;
-			 divisor++;
-			 return isPrime(number)+count;
+
+			if(number%divisor==0) return false;
+
+			divisor++;
+			return isPrime(number);
 		 }
-		
+
 	}
 	
 	public static void main(String[] args) {
@@ -48,7 +50,7 @@ public class Program {
 		number=input.nextInt();
 		input.close();
 		
-		String isPrime = (isPrime(number)==0) ? "ASALDIR !" : "ASAL değildir !";
+		String isPrime = (isPrime(number)) ? "ASALDIR !" : "ASAL değildir !";
 		System.out.println(number +" sayısı "+ isPrime);
 		
 	}
