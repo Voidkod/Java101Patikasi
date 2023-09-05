@@ -148,7 +148,7 @@ public class MineSweeper {
 			System.out.println(winMessage);
 			isTurn=false;
 		}
-		else if(mineField[selectRow][selectCol].equals("*")&&choosenAreas[selectRow][selectCol].equals("-")) {
+		else if(mineField[selectRow][selectCol].equals("*")) {
 			System.out.println(loseMessage);
 			addMinesMap(choosenAreas, "*");
 			choosenAreas[selectRow][selectCol]="X";
